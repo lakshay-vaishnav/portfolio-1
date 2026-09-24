@@ -1,1 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Lakshay Vaishnav | Computer Engineering • Software • AI</title>
+  <meta name="description" content="Portfolio of Lakshay Vaishnav, a Computer Engineering undergraduate building software, AI-powered web platforms, NLP solutions, and hackathon projects.">
+  <meta name="keywords" content="Lakshay Vaishnav, Computer Engineering, Software Developer, AI, NLP, SchemeAI, ForgeBrain AI, SIET Nilokheri, Hackathon">
+  <meta name="author" content="Lakshay Vaishnav">
+  <meta name="theme-color" content="#07090e">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lakshay-vaishnav.github.io/PORTFOLIO/">
+  <meta property="og:title" content="Lakshay Vaishnav | Computer Engineering • Software • AI">
+  <meta property="og:description" content="Building practical software, AI-powered products, and intelligent web experiences. Featured work: SchemeAI (Samsung Solve for Tomorrow 2026) and ForgeBrain AI (ET AI Hackathon 2026).">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lakshay Vaishnav | Computer Engineering • Software • AI">
+  <meta name="twitter:description" content="Building practical software, AI-powered products, and intelligent web experiences.">
+
+  <!-- Favicon: Geometric Monogram SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c0f17'/%3E%3Cpath d='M8 9v14h10' stroke='%2300f0ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M15 9l4.5 14L24 9' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='24' cy='9' r='2' fill='%2310b981'/%3E%3C/svg%3E">
+
+  <!-- Google Web Fonts: Inter, Space Grotesk, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo" aria-label="Lakshay Vaishnav Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>lakshay<span style="color:var(--accent-cyan);">.v()</span></span>
+        <span class="brand-version">V3</span>
+      </a>
+
+      <nav class="desktop-nav" role="navigation" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#stack" class="nav-link">Stack</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="GitHub Profile">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/lakshay-vaishnav-951b8b3b6" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="LinkedIn Profile">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <button type="button" class="btn btn-accent btn-sm open-resume-btn" aria-label="View Resume">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>Resume</span>
+        </button>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Drawer">
+    <a href="#hero" class="mobile-nav-link active">Home</a>
+    <a href="#work" class="mobile-nav-link">Work</a>
+    <a href="#stack" class="mobile-nav-link">Stack</a>
+    <a href="#journey" class="mobile-nav-link">Journey</a>
+    <a href="#achievements" class="mobile-nav-link">Achievements</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+    <div style="display:flex; flex-direction:column; gap:0.75rem; margin-top:1rem;">
+      <button class="btn btn-accent open-resume-btn">View Resume PDF</button>
+      <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub Profile</a>
+      <a href="https://linkedin.com/in/lakshay-vaishnav-951b8b3b6" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn Profile</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         4 & 5. HERO SECTION + INTERACTIVE DEV CONSOLE & SYSTEM MAP
+         ========================================================================== -->
+    <section id="hero" class="hero-section" aria-label="Introduction">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-indicator">
+              <span class="status-dot"></span>
+              AVAILABLE FOR
+            </span>
+            <span class="status-text">Software Engineering • AI/ML • Hackathons</span>
+          </div>
+
+          <h1 class="hero-headline display-title">
+            I build software that <span class="highlight-word">solves real problems.</span>
+          </h1>
+
+          <p class="hero-subheadline">
+            Computer Engineering undergraduate exploring software engineering, AI/ML, NLP, and product development through real projects and hackathons.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-primary">
+              <span>Explore Selected Work</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Have an idea? Let's connect</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="hero-identity-meta">
+            <div class="identity-item">
+              <span class="identity-label">Name</span>
+              <span class="identity-value">Lakshay Vaishnav</span>
+            </div>
+            <div class="identity-item">
+              <span class="identity-label">Education</span>
+              <span class="identity-value">B.Tech Computer Engg (SIET)</span>
+            </div>
+            <div class="identity-item">
+              <span class="identity-label">Semester 1</span>
+              <span class="identity-value" style="color:var(--accent-emerald);">8.76 / 10 SGPA</span>
+            </div>
+            <div class="identity-item">
+              <span class="identity-label">Location</span>
+              <span class="identity-value">Haryana, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Hero Panel: Terminal Console / System Map -->
+        <div class="hero-widget-panel" aria-label="Interactive Developer Console and System Map">
+          <div class="widget-tabs-bar">
+            <div class="window-dots" aria-hidden="true">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+            </div>
+            <div class="widget-tabs" role="tablist">
+              <button class="tab-btn active" data-target="terminal" role="tab" aria-selected="true">Console</button>
+              <button class="tab-btn" data-target="system-map" role="tab" aria-selected="false">System Map</button>
+            </div>
+          </div>
+
+          <div class="widget-content-body">
+            <!-- Tab 1: Terminal Console -->
+            <div id="terminal-view" class="terminal-view active" role="tabpanel">
+              <div id="terminal-scroll" class="terminal-scroll-area" tabindex="0" aria-label="Terminal Output History">
+                <!-- Initial ./about execution -->
+                <div class="term-line">
+                  <div class="term-cmd-row">
+                    <span class="term-prompt">lakshay@portfolio:~$</span>
+                    <span class="term-cmd">./about</span>
+                  </div>
+                  <div class="term-result">
+                    <div>Computer Engineering</div>
+                    <div>SGPA: <span class="res-green">8.76/10</span></div>
+                    <div>Focus: <span class="res-cyan">Software + AI</span></div>
+                    <div>Location: Haryana, India</div>
+                  </div>
+                </div>
+
+                <!-- Initial ./currently_building execution -->
+                <div class="term-line">
+                  <div class="term-cmd-row">
+                    <span class="term-prompt">lakshay@portfolio:~$</span>
+                    <span class="term-cmd">./currently_building</span>
+                  </div>
+                  <div class="term-result">
+                    <div><span class="res-cyan">●</span> AI-powered products</div>
+                    <div><span class="res-cyan">●</span> NLP systems</div>
+                    <div><span class="res-cyan">●</span> Full-stack experiments</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Terminal Input & Prompt -->
+              <div class="term-input-row">
+                <span class="term-prompt">lakshay@portfolio:~$</span>
+                <input type="text" id="terminal-input" class="term-input" placeholder="type ./stack, ./projects, or help..." autocomplete="off" spellcheck="false" aria-label="Terminal Command Input">
+              </div>
+
+              <!-- Quick Command Chips -->
+              <div class="term-chips-row" aria-label="Quick Command Shortcuts">
+                <button class="term-chip" data-cmd="./about">./about</button>
+                <button class="term-chip" data-cmd="./currently_building">./currently_building</button>
+                <button class="term-chip" data-cmd="./stack">./stack</button>
+                <button class="term-chip" data-cmd="./projects">./projects</button>
+                <button class="term-chip" data-cmd="./proof">./proof</button>
+                <button class="term-chip" data-cmd="clear">clear</button>
+              </div>
+            </div>
+
+            <!-- Tab 2: System Map -->
+            <div id="system-map-view" class="system-map-view" role="tabpanel">
+              <div class="system-map-container">
+                <svg class="system-map-svg" viewBox="0 0 440 300" aria-label="Interactive Technical System Map">
+                  <!-- Connection Lines -->
+                  <line x1="220" y1="150" x2="80" y2="70" class="connection-line"/>
+                  <line x1="220" y1="150" x2="220" y2="40" class="connection-line"/>
+                  <line x1="220" y1="150" x2="360" y2="70" class="connection-line"/>
+                  <line x1="220" y1="150" x2="370" y2="220" class="connection-line"/>
+                  <line x1="220" y1="150" x2="270" y2="260" class="connection-line"/>
+                  <line x1="220" y1="150" x2="140" y2="260" class="connection-line"/>
+                  <line x1="220" y1="150" x2="70" y2="200" class="connection-line"/>
+
+                  <!-- Center Node: LAKSHAY -->
+                  <g class="node-group node-center" data-node="LAKSHAY">
+                    <circle cx="220" cy="150" r="34" class="node-circle"/>
+                    <text x="220" y="154" class="node-text">LAKSHAY</text>
+                  </g>
+
+                  <!-- Connected Nodes -->
+                  <g class="node-group" data-node="CODE" tabindex="0" role="button" aria-label="View Code Node">
+                    <circle cx="80" cy="70" r="24" class="node-circle"/>
+                    <text x="80" y="74" class="node-text">CODE</text>
+                  </g>
+
+                  <g class="node-group" data-node="AI" tabindex="0" role="button" aria-label="View AI Node">
+                    <circle cx="220" cy="40" r="24" class="node-circle"/>
+                    <text x="220" y="44" class="node-text">AI</text>
+                  </g>
+
+                  <g class="node-group" data-node="NLP" tabindex="0" role="button" aria-label="View NLP Node">
+                    <circle cx="360" cy="70" r="24" class="node-circle"/>
+                    <text x="360" y="74" class="node-text">NLP</text>
+                  </g>
+
+                  <g class="node-group" data-node="WEB" tabindex="0" role="button" aria-label="View Web Node">
+                    <circle cx="370" cy="220" r="24" class="node-circle"/>
+                    <text x="370" y="224" class="node-text">WEB</text>
+                  </g>
+
+                  <g class="node-group" data-node="DATABASES" tabindex="0" role="button" aria-label="View Databases Node">
+                    <circle cx="270" cy="260" r="24" class="node-circle"/>
+                    <text x="270" y="264" class="node-text">DATABASES</text>
+                  </g>
+
+                  <g class="node-group" data-node="HACKATHONS" tabindex="0" role="button" aria-label="View Hackathons Node">
+                    <circle cx="140" cy="260" r="25" class="node-circle"/>
+                    <text x="140" y="264" class="node-text">HACKATHONS</text>
+                  </g>
+
+                  <g class="node-group" data-node="OPEN SOURCE" tabindex="0" role="button" aria-label="View Open Source Node">
+                    <circle cx="70" cy="200" r="25" class="node-circle"/>
+                    <text x="70" y="204" class="node-text">OPEN SOURCE</text>
+                  </g>
+                </svg>
+              </div>
+              <p id="system-map-status" class="system-map-tip">Click any node to navigate to relevant engineering systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. "CURRENTLY BUILDING" (LIVE ACTIVITY RADAR)
+         ========================================================================== -->
+    <section class="currently-building-section" aria-label="Current Engineering Activity">
+      <div class="container">
+        <div class="building-header-row">
+          <div>
+            <span class="section-label">Live Activity</span>
+            <h2 class="section-title">Currently building.</h2>
+          </div>
+          <div class="building-meta-chips">
+            <span class="meta-badge">Based in Haryana, India</span>
+            <span class="meta-badge">Computer Engineering — SIET Nilokheri</span>
+            <span class="meta-badge">Batch 2025–2029</span>
+          </div>
+        </div>
+
+        <div class="building-grid">
+          <div class="building-card">
+            <div class="building-card-top">
+              <span class="building-number">01 // AI</span>
+              <span class="building-pulse-dot" aria-hidden="true"></span>
+            </div>
+            <h3 class="building-card-title">AI-powered products</h3>
+            <p class="building-card-desc">Exploring local LLM workflows, generative developer tools, and pragmatic agentic integrations.</p>
+          </div>
+
+          <div class="building-card">
+            <div class="building-card-top">
+              <span class="building-number">02 // NLP</span>
+              <span class="building-pulse-dot" aria-hidden="true"></span>
+            </div>
+            <h3 class="building-card-title">NLP systems</h3>
+            <p class="building-card-desc">Designing offline-first bilingual tokenization, relevance scoring, and zero-latency search pipelines.</p>
+          </div>
+
+          <div class="building-card">
+            <div class="building-card-top">
+              <span class="building-number">03 // WEB</span>
+              <span class="building-pulse-dot" aria-hidden="true"></span>
+            </div>
+            <h3 class="building-card-title">Web applications</h3>
+            <p class="building-card-desc">Engineering high-performance client state management, PWA offline caching, and responsive interfaces.</p>
+          </div>
+
+          <div class="building-card">
+            <div class="building-card-top">
+              <span class="building-number">04 // HACKATHONS</span>
+              <span class="building-pulse-dot" aria-hidden="true"></span>
+            </div>
+            <h3 class="building-card-title">Hackathon projects</h3>
+            <p class="building-card-desc">Rapidly testing problem statements, delivering complete project lifecycles from architecture to deployment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         15. PROOF OF WORK (FACTUAL EVIDENCE METRICS)
+         ========================================================================== -->
+    <section class="proof-section" aria-label="Verifiable Proof of Work">
+      <div class="container">
+        <span class="section-label">Factual Signals</span>
+        <h2 class="section-title">Proof of work.</h2>
+        <p class="section-subtitle">Real metrics and verified milestones drawn directly from project implementations, academic performance, and national hackathons.</p>
+
+        <div class="proof-grid">
+          <div class="proof-card">
+            <div class="proof-stat">73<span class="proof-stat-sub">+</span></div>
+            <div class="proof-title">Schemes Covered</div>
+            <p class="proof-detail">Government welfare programs indexed and queried with 100% offline rule-based bilingual NLP in SchemeAI.</p>
+          </div>
+
+          <div class="proof-card">
+            <div class="proof-stat">8.76<span class="proof-stat-sub">/10</span></div>
+            <div class="proof-title">Semester 1 SGPA</div>
+            <p class="proof-detail">State Institute of Engineering & Technology (SIET), Nilokheri • Kurukshetra University (Batch 2025–2029).</p>
+          </div>
+
+          <div class="proof-card">
+            <div class="proof-stat">2026</div>
+            <div class="proof-title">Active Product Cycle</div>
+            <p class="proof-detail">Built SchemeAI, ForgeBrain AI, Personal Portfolio, and national hackathon submissions.</p>
+          </div>
+
+          <div class="proof-card">
+            <div class="proof-stat">Samsung</div>
+            <div class="proof-title">Solve for Tomorrow</div>
+            <p class="proof-detail">Official Participant in AI-Powered Smart Agriculture & Scheme Discovery Track with SchemeAI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8, 9, 10, 11, 12. SELECTED WORK (HERO PROJECTS & EDITORIAL CARDS)
+         ========================================================================== -->
+    <section id="work" class="work-section" aria-label="Selected Engineering Work">
+      <div class="container">
+        <div class="work-header">
+          <span class="section-label">Portfolio Showcase</span>
+          <h2 class="section-title">Selected work.</h2>
+          <p class="section-subtitle">Projects where I experiment, solve problems, and turn ideas into working products.</p>
+        </div>
+
+        <div class="projects-stack">
+          <!-- 01 — SchemeAI (HERO PROJECT) -->
+          <article id="schemeai-card" class="project-card hero-project-card" aria-label="SchemeAI Case Study">
+            <div class="hero-project-inner">
+              <div class="project-info-pane">
+                <div class="project-meta-bar">
+                  <span class="project-index">01 // HERO PROJECT</span>
+                  <span class="project-badge-tag badge-samsung">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                    Samsung Solve for Tomorrow 2026
+                  </span>
+                </div>
+
+                <h3 class="project-title">SchemeAI</h3>
+                <div class="project-category-label">AI • NLP • PWA • HACKATHON</div>
+                <p class="project-description">
+                  AI-powered Indian government scheme discovery platform covering 73+ welfare programs with an offline rule-based bilingual engine.
+                </p>
+
+                <!-- Engineering Framework: Problem -> Thinking -> Architecture -> Implementation -> Result -->
+                <div class="engineering-story-grid">
+                  <div class="story-item">
+                    <span class="story-label">Problem</span>
+                    <p class="story-text">Rural citizens miss government benefits due to portal fragmentation, language barriers, and spotty internet connectivity.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Thinking</span>
+                    <p class="story-text">Replaced unreliable, costly cloud AI APIs with a client-side rule-based NLP engine ensuring 100% uptime and 0ms latency.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Implementation</span>
+                    <p class="story-text">Token-based relevance scoring, education-level detection, Hindi/English bilingual parsing, PWA meta tags, and animated canvas branding.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Result</span>
+                    <p class="story-text">Indexed 73+ schemes with instant offline matching. Deployed to GitHub Pages as an official national Samsung challenge submission.</p>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Rule-Based NLP</span>
+                  <span class="tech-tag">Bilingual Parsing</span>
+                  <span class="tech-tag">PWA</span>
+                  <span class="tech-tag">Canvas API</span>
+                  <span class="tech-tag">GitHub Pages</span>
+                </div>
+
+                <div class="project-actions">
+                  <button type="button" class="btn btn-primary open-case-study" data-project="schemeai">
+                    <span>Deep Dive Case Study</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </button>
+                  <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- SchemeAI 7-Stage Pipeline Visualizer & Live Interactive Simulator -->
+              <div class="project-visual-pane">
+                <div class="visual-pane-header">
+                  <span class="pane-title">7-Stage NLP Architecture</span>
+                  <span class="live-indicator">
+                    <span class="status-dot"></span>
+                    100% Offline Engine
+                  </span>
+                </div>
+
+                <div class="pipeline-flow-container" aria-label="7-Stage Pipeline Visualizer">
+                  <div class="pipeline-step">
+                    <span class="step-num">01</span>
+                    <span class="step-name">USER QUERY</span>
+                    <span class="step-detail">Text / Voice Input</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step">
+                    <span class="step-num">02</span>
+                    <span class="step-name">LANGUAGE DETECTION</span>
+                    <span class="step-detail">Hindi / English Script</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step">
+                    <span class="step-num">03</span>
+                    <span class="step-name">EDUCATION LEVEL</span>
+                    <span class="step-detail">Demographic Filter</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step">
+                    <span class="step-num">04</span>
+                    <span class="step-name">TOKEN PROCESSING</span>
+                    <span class="step-detail">Stopword Removal</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step">
+                    <span class="step-num">05</span>
+                    <span class="step-name">RELEVANCE SCORING</span>
+                    <span class="step-detail">Token Weight Engine</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step">
+                    <span class="step-num">06</span>
+                    <span class="step-name">SCHEME MATCHING</span>
+                    <span class="step-detail">73+ Indexed Schemes</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="pipeline-step active-step">
+                    <span class="step-num">07</span>
+                    <span class="step-name">RANKED RESULTS</span>
+                    <span class="step-detail">Actionable Cards</span>
+                  </div>
+                </div>
+
+                <!-- Embedded Interactive Simulator Widget -->
+                <div class="scheme-sim-box">
+                  <div class="sim-header">> RUN PIPELINE SIMULATOR</div>
+                  <div class="sim-query-chips">
+                    <button class="sim-chip" data-sim="scholarship">"12th Pass Scholarship"</button>
+                    <button class="sim-chip" data-sim="farmer">"किसान सोलर पंप (Solar Pump)"</button>
+                    <button class="sim-chip" data-sim="entrepreneur">"Women Micro Loan"</button>
+                  </div>
+                  <div id="sim-output-content" class="sim-output-card">
+                    Click a preset query above to test the 7-stage bilingual matching engine in real-time.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 — ForgeBrain AI -->
+          <article class="project-card" aria-label="ForgeBrain AI Case Study">
+            <div class="hero-project-inner">
+              <div class="project-info-pane">
+                <div class="project-meta-bar">
+                  <span class="project-index">02 // HACKATHON PRODUCT</span>
+                  <span class="project-badge-tag badge-et">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    ET AI Hackathon 2026 (Problem Statement 8)
+                  </span>
+                </div>
+
+                <h3 class="project-title">ForgeBrain AI</h3>
+                <div class="project-category-label">GENERATIVE AI • INDUSTRIAL INTELLIGENCE • HACKATHON</div>
+                <p class="project-description">
+                  Industrial Knowledge Intelligence web platform developed for ET AI Hackathon 2026 to resolve complex manufacturing queries with domain retrieval.
+                </p>
+
+                <div class="engineering-story-grid">
+                  <div class="story-item">
+                    <span class="story-label">Problem</span>
+                    <p class="story-text">Manufacturing teams waste hours sifting through dense equipment manuals and safety specs during line halts.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Thinking</span>
+                    <p class="story-text">Pair Generative AI APIs with indexed industrial domain knowledge for immediate, safety-grounded resolution.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Implementation</span>
+                    <p class="story-text">Generative API integration, high-contrast plant UI, structured documentation, and video demonstration workflow.</p>
+                  </div>
+                  <div class="story-item">
+                    <span class="story-label">Result</span>
+                    <p class="story-text">Complete project delivery: code, deployment on GitHub Pages, video script, LinkedIn write-up, and submission documentation.</p>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Generative AI API</span>
+                  <span class="tech-tag">Industrial Intelligence</span>
+                  <span class="tech-tag">GitHub Pages</span>
+                </div>
+
+                <div class="project-actions">
+                  <button type="button" class="btn btn-primary open-case-study" data-project="forgebrain">
+                    <span>View Case Study</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </button>
+                  <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Architecture Flow Diagram for ForgeBrain AI -->
+              <div class="project-visual-pane">
+                <div class="visual-pane-header">
+                  <span class="pane-title">Industrial Intelligence Flow</span>
+                  <span class="live-indicator">
+                    <span class="status-dot" style="background-color:var(--accent-amber);"></span>
+                    GenAI API Integration
+                  </span>
+                </div>
+
+                <div class="forge-arch-flow" aria-label="ForgeBrain AI Architecture">
+                  <div class="arch-node-box">
+                    <span class="arch-node-title">01 // USER QUERY</span>
+                    <span class="arch-node-role">Equipment symptom or error code</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="arch-node-box highlight">
+                    <span class="arch-node-title">02 // GENERATIVE AI</span>
+                    <span class="arch-node-role">Context-engineered prompt model</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="arch-node-box">
+                    <span class="arch-node-title">03 // DOMAIN KNOWLEDGE</span>
+                    <span class="arch-node-role">Industrial specs & compliance rules</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="arch-node-box highlight">
+                    <span class="arch-node-title">04 // KNOWLEDGE RETRIEVAL</span>
+                    <span class="arch-node-role">Targeted troubleshooting extraction</span>
+                  </div>
+                  <div class="pipeline-arrow">↓</div>
+                  <div class="arch-node-box">
+                    <span class="arch-node-title">05 // INTELLIGENT RESPONSE</span>
+                    <span class="arch-node-role">Actionable diagnostic guidance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 & 04 Secondary Projects Grid -->
+          <div class="secondary-projects-grid">
+            <!-- 03 — Personal Portfolio -->
+            <article class="project-card secondary-project-card" aria-label="Personal Portfolio Case Study">
+              <div>
+                <div class="project-meta-bar">
+                  <span class="project-index">03 // DESIGN SYSTEM</span>
+                  <span class="project-badge-tag">Accessibility Focus</span>
+                </div>
+                <h3 class="project-title" style="font-size:1.6rem;">Personal Portfolio</h3>
+                <div class="project-category-label">HTML • CSS • JAVASCRIPT • GITHUB PAGES</div>
+                <p class="project-description" style="font-size:0.95rem;">
+                  Designed and deployed a fully responsive personal portfolio with embedded PDF resume, LinkedIn banner SVG, and custom GitHub README.
+                </p>
+                <div class="story-item" style="margin-bottom:1rem;">
+                  <span class="story-label">Engineering Highlight</span>
+                  <p class="story-text">Iterated through multiple UI themes and implemented dark-to-light design migration for enhanced visual contrast and accessibility.</p>
+                </div>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">GitHub Pages</span>
+                </div>
+              </div>
+              <div class="project-actions" style="margin-top:1.5rem;">
+                <button type="button" class="btn btn-secondary btn-sm open-case-study" data-project="portfolio">Details</button>
+                <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">GitHub</a>
+                <a href="https://lakshay-vaishnav.github.io/PORTFOLIO" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm">Live Portfolio</a>
+              </div>
+            </article>
+
+            <!-- 04 — Modern Restaurant Website -->
+            <article class="project-card secondary-project-card" aria-label="Restaurant Website Case Study">
+              <div>
+                <div class="project-meta-bar">
+                  <span class="project-index">04 // WEB APPLICATION</span>
+                  <span class="project-badge-tag">Zero-Framework State</span>
+                </div>
+                <h3 class="project-title" style="font-size:1.6rem;">Modern Restaurant Website</h3>
+                <div class="project-category-label">HTML • CSS • JAVASCRIPT (CLIENT STATE)</div>
+                <p class="project-description" style="font-size:0.95rem;">
+                  Fully responsive dining website with interactive menu exploration, reservation flow, and client-side state management without external dependencies.
+                </p>
+                <div class="story-item" style="margin-bottom:1rem;">
+                  <span class="story-label">Engineering Highlight</span>
+                  <p class="story-text">Engineered pure native DOM manipulation and client state machines for smooth UI animations and sub-10ms responsiveness.</p>
+                </div>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">State Management</span>
+                </div>
+              </div>
+              <div class="project-actions" style="margin-top:1.5rem;">
+                <button type="button" class="btn btn-secondary btn-sm open-case-study" data-project="restaurant">Details</button>
+                <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         13 & 14. ENGINEERING STACK (EVIDENCE-BASED STACK MAP)
+         ========================================================================== -->
+    <section id="stack" class="stack-section" aria-label="Technical Skills and Evidence">
+      <div class="container">
+        <span class="section-label">Technical Competencies</span>
+        <h2 class="section-title">Engineering stack.</h2>
+        <p class="section-subtitle">
+          Evidence-based technical capabilities. No unsupported percentage bars. Click or hover any technology to inspect where and how it was applied in real projects.
+        </p>
+
+        <div class="stack-layout">
+          <!-- Stack Categories -->
+          <div class="stack-categories">
+            <!-- Languages -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">Languages</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill active" data-skill="JavaScript">JavaScript</button>
+                <button class="stack-pill" data-skill="C">C</button>
+                <button class="stack-pill" data-skill="Python">Python</button>
+                <button class="stack-pill" data-skill="HTML">HTML</button>
+                <button class="stack-pill" data-skill="CSS">CSS</button>
+                <button class="stack-pill" data-skill="SQL">SQL</button>
+              </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">Databases</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill" data-skill="MySQL">MySQL</button>
+                <button class="stack-pill" data-skill="Microsoft SQL Server">Microsoft SQL Server</button>
+                <button class="stack-pill" data-skill="T-SQL">T-SQL</button>
+              </div>
+            </div>
+
+            <!-- AI / ML -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">AI / Machine Learning</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill" data-skill="Generative AI APIs">Generative AI APIs</button>
+                <button class="stack-pill" data-skill="Anthropic Claude">Anthropic Claude</button>
+                <button class="stack-pill" data-skill="Gemini API">Gemini API</button>
+                <button class="stack-pill" data-skill="NLP Pipelines">NLP Pipelines</button>
+                <button class="stack-pill" data-skill="Rule-Based Bilingual NLP">Rule-Based Bilingual NLP</button>
+              </div>
+            </div>
+
+            <!-- Frameworks / APIs -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">Frameworks & APIs</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill" data-skill="FastAPI">FastAPI</button>
+                <button class="stack-pill" data-skill="TypeScript">TypeScript (beginner)</button>
+                <button class="stack-pill" data-skill="Canvas API">Canvas API</button>
+              </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">Tools & Platforms</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill" data-skill="Git">Git</button>
+                <button class="stack-pill" data-skill="GitHub">GitHub</button>
+                <button class="stack-pill" data-skill="VS Code">VS Code</button>
+                <button class="stack-pill" data-skill="GitHub Pages">GitHub Pages</button>
+                <button class="stack-pill" data-skill="SSMS">SSMS</button>
+                <button class="stack-pill" data-skill="PWA">PWA</button>
+              </div>
+            </div>
+
+            <!-- AI / Productivity -->
+            <div class="stack-group">
+              <h3 class="stack-group-title">AI & Productivity</h3>
+              <div class="stack-pill-grid">
+                <button class="stack-pill" data-skill="Lovable">Lovable</button>
+                <button class="stack-pill" data-skill="Gamma AI">Gamma AI</button>
+                <button class="stack-pill" data-skill="NotebookLM">NotebookLM</button>
+                <button class="stack-pill" data-skill="ChatGPT">ChatGPT</button>
+                <button class="stack-pill" data-skill="Simplilearn">Simplilearn</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sticky Evidence Inspector Panel -->
+          <div class="stack-evidence-panel" aria-live="polite">
+            <div class="evidence-header">
+              <span id="evidence-skill-tag" class="evidence-pill-tag">LANGUAGES</span>
+              <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-emerald);">VERIFIED APPLICATION</span>
+            </div>
+            <div>
+              <h4 id="evidence-skill-title" class="evidence-title">JavaScript (ES6+)</h4>
+              <span id="evidence-skill-cat" class="evidence-category">Languages Category</span>
+            </div>
+            <p id="evidence-skill-desc" class="evidence-body">
+              Core language used across all client-side platforms. Built offline rule-based bilingual NLP parsing in SchemeAI, API communication in ForgeBrain AI, client state management in the Restaurant application, and interactive DOM orchestration for Portfolio V3.
+            </p>
+            <div style="border-top:1px solid var(--border-dim); padding-top:0.75rem;">
+              <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Applied in Projects:</span>
+              <div id="evidence-projects-list" class="evidence-projects-list">
+                <div class="evidence-project-item">SchemeAI</div>
+                <div class="evidence-project-item">ForgeBrain AI</div>
+                <div class="evidence-project-item">Personal Portfolio</div>
+                <div class="evidence-project-item">Modern Restaurant Website</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         16 & 17. EDUCATION & ACHIEVEMENTS DUAL TIMELINE
+         ========================================================================== -->
+    <section id="journey" class="timeline-section" aria-label="Education and Achievements">
+      <div class="container">
+        <span class="section-label">Trajectory & Milestones</span>
+        <h2 class="section-title">Academic & competitive journey.</h2>
+        <p class="section-subtitle">Structured timeline reflecting rigorous engineering coursework and verifiable hackathon participation.</p>
+
+        <div class="dual-timeline-grid">
+          <!-- Column 1: Education -->
+          <div class="timeline-column">
+            <h3 class="timeline-column-title">// Education Timeline</h3>
+            <div class="timeline-tree">
+              <!-- Current B.Tech -->
+              <div class="timeline-card">
+                <span class="timeline-year">2025 → Present (Batch 2025–2029)</span>
+                <h4 class="timeline-heading">B.Tech in Computer Engineering</h4>
+                <div class="timeline-subheading">State Institute of Engineering & Technology (SIET), Nilokheri</div>
+                <div class="timeline-subheading" style="color:var(--text-muted); font-size:0.8rem;">Kurukshetra University</div>
+                <div class="timeline-sgpa-badge">
+                  <span class="status-dot"></span>
+                  SGPA: 8.76 / 10 (Semester 1)
+                </div>
+                <div style="margin-top:0.5rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.72rem; color:var(--text-muted);">Relevant Coursework:</span>
+                  <div class="timeline-coursework-chips">
+                    <span class="course-chip">Data Structures</span>
+                    <span class="course-chip">Programming in C</span>
+                    <span class="course-chip">Basic Electrical & Electronics</span>
+                    <span class="course-chip">Engineering Mathematics</span>
+                    <span class="course-chip">Engineering Physics</span>
+                    <span class="course-chip">English Communication</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Class XII -->
+              <div class="timeline-card">
+                <span class="timeline-year">Apr 2024 – Mar 2025</span>
+                <h4 class="timeline-heading">Class XII — Non-Medical (CBSE)</h4>
+                <div class="timeline-subheading">DRP Public School, Palwal, Haryana</div>
+                <p style="font-size:0.82rem; color:var(--text-secondary); margin-top:0.25rem;">
+                  Physics, Chemistry, Mathematics background with analytical problem-solving foundations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Achievements & Certifications -->
+          <div id="achievements" class="timeline-column">
+            <h3 class="timeline-column-title">// Achievements & Recognition</h3>
+            <div class="timeline-tree">
+              <!-- Samsung Solve for Tomorrow -->
+              <div class="timeline-card">
+                <span class="timeline-year">2026 // NATIONAL COMPETITION</span>
+                <h4 class="timeline-heading">Samsung Solve for Tomorrow 2026</h4>
+                <div class="timeline-subheading" style="color:var(--accent-cyan);">Official Participant • Samsung India</div>
+                <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;">
+                  Track: AI-Powered Smart Agriculture / Scheme Discovery Track. Cleared Samsung's national-level innovation challenge with SchemeAI; received official certificate.
+                </p>
+              </div>
+
+              <!-- CampusCrew -->
+              <div class="timeline-card">
+                <span class="timeline-year">Jun 2026 // COMMUNITY RECOGNITION</span>
+                <h4 class="timeline-heading">100K Milestone Honor</h4>
+                <div class="timeline-subheading" style="color:var(--accent-cyan);">CampusCrew (Founder: Aaradhya Gupta)</div>
+                <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;">
+                  Awarded for being an integral contributor to the student developer community spanning 100,000+ students across 15+ countries.
+                </p>
+              </div>
+
+              <!-- Simplilearn GenAI -->
+              <div class="timeline-card">
+                <span class="timeline-year">2026 // CERTIFICATION</span>
+                <h4 class="timeline-heading">Introduction to Generative AI</h4>
+                <div class="timeline-subheading" style="color:var(--accent-cyan);">Simplilearn</div>
+                <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;">
+                  Completed structured coursework covering Large Language Models (LLMs), prompt engineering fundamentals, and practical AI application development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         18. "WHAT I LIKE BUILDING"
+         ========================================================================== -->
+    <section class="what-i-build-section" aria-label="Engineering Interests">
+      <div class="container">
+        <span class="section-label">Interests & Focus</span>
+        <h2 class="section-title">What I like building.</h2>
+        <p class="section-subtitle">Core product engineering domains where I spend my time exploring, testing, and shipping software.</p>
+
+        <div class="building-interests-grid">
+          <div class="interest-card">
+            <span class="interest-num">01</span>
+            <h3 class="interest-title">AI-powered web products</h3>
+            <p class="interest-desc">Interfaces that connect generative models and structured data to simplify complex human workflows.</p>
+          </div>
+
+          <div class="interest-card">
+            <span class="interest-num">02</span>
+            <h3 class="interest-title">NLP systems</h3>
+            <p class="interest-desc">Deterministic, rule-based, and semantic text pipelines that operate reliably without expensive cloud dependencies.</p>
+          </div>
+
+          <div class="interest-card">
+            <span class="interest-num">03</span>
+            <h3 class="interest-title">Developer tools</h3>
+            <p class="interest-desc">Scripts, command-line utilities, and developer ergonomics that shorten feedback loops and automate grunt work.</p>
+          </div>
+
+          <div class="interest-card">
+            <span class="interest-num">04</span>
+            <h3 class="interest-title">Hackathon prototypes</h3>
+            <p class="interest-desc">Turning unrefined problem statements into viable, functional end-to-end prototypes within competitive constraints.</p>
+          </div>
+
+          <div class="interest-card">
+            <span class="interest-num">05</span>
+            <h3 class="interest-title">Interactive web experiences</h3>
+            <p class="interest-desc">Accessible, zero-bloat web apps with smooth micro-interactions, responsive CSS layouts, and native browser APIs.</p>
+          </div>
+
+          <div class="interest-card">
+            <span class="interest-num">06</span>
+            <h3 class="interest-title">Open-source experiments</h3>
+            <p class="interest-desc">Public repositories, transparent version control, and modular codebases built with clear documentation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         19. GITHUB REPOSITORIES
+         ========================================================================== -->
+    <section id="github-section" class="github-section" aria-label="GitHub Code Repositories">
+      <div class="container">
+        <div class="github-box">
+          <div class="github-content">
+            <span class="section-label">Source Code</span>
+            <h2 class="section-title">Code is where the ideas become real.</h2>
+            <p class="section-subtitle">
+              Explore my public repositories, experiments, and project implementations. Version-controlled, transparent, and documented.
+            </p>
+            <div style="margin-top:0.5rem;">
+              <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <span>View GitHub Profile</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="github-repos-grid">
+            <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="repo-card">
+              <div class="repo-top">
+                <span class="repo-name">SchemeAI</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </div>
+              <p class="repo-desc">AI-powered Indian government scheme discovery platform covering 73+ schemes with offline NLP.</p>
+              <div class="repo-bottom">
+                <span>JavaScript / PWA</span>
+                <span>2026</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="repo-card">
+              <div class="repo-top">
+                <span class="repo-name">ForgeBrain-AI</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </div>
+              <p class="repo-desc">Industrial Knowledge Intelligence web platform developed for ET AI Hackathon 2026.</p>
+              <div class="repo-bottom">
+                <span>GenAI API / JS</span>
+                <span>2026</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="repo-card">
+              <div class="repo-top">
+                <span class="repo-name">PORTFOLIO</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </div>
+              <p class="repo-desc">Personal developer portfolio showcasing projects, academic coursework, and hackathons.</p>
+              <div class="repo-bottom">
+                <span>HTML / CSS / JS</span>
+                <span>2026</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         20. RESUME EXPERIENCE CALL-TO-ACTION
+         ========================================================================== -->
+    <section class="resume-cta-section" aria-label="Resume CTA">
+      <div class="container resume-cta-inner">
+        <div class="resume-cta-text">
+          <span class="section-label">Verified Record</span>
+          <h2 class="section-title">Want the complete picture?</h2>
+          <p class="section-subtitle">
+            View my resume for verified education, technical skills, project architectures, coursework, and competitive achievements.
+          </p>
+        </div>
+        <div class="resume-cta-buttons">
+          <button type="button" class="btn btn-primary open-resume-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span>View Resume</span>
+          </button>
+          <a href="assets/Lakshay_Vaishnav_Resume.pdf" download="Lakshay_Vaishnav_Resume.pdf" class="btn btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download Resume (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         21. CONTACT (MODERN CONNECTIVITY)
+         ========================================================================== -->
+    <section id="contact" class="contact-section" aria-label="Contact Information">
+      <div class="container">
+        <span class="section-label">Connect & Collaborate</span>
+        <div class="contact-grid">
+          <div class="contact-left">
+            <h2 class="contact-headline display-title">Have an idea worth building?</h2>
+            <p class="contact-desc">
+              Let's connect around software, AI, product development, hackathons, or open source. Open to software engineering internship opportunities at product-driven companies.
+            </p>
+
+            <div class="contact-links-list">
+              <div class="contact-item-row">
+                <div class="contact-meta">
+                  <span class="contact-type">Email</span>
+                  <a href="mailto:vaishnavlakshay640@gmail.com" class="contact-val">vaishnavlakshay640@gmail.com</a>
+                </div>
+                <button type="button" class="copy-btn copy-email-btn" aria-label="Copy email address to clipboard">Copy</button>
+              </div>
+
+              <div class="contact-item-row">
+                <div class="contact-meta">
+                  <span class="contact-type">Phone</span>
+                  <a href="tel:+918570097499" class="contact-val">+91-8570097499</a>
+                </div>
+                <a href="tel:+918570097499" class="copy-btn">Call</a>
+              </div>
+
+              <div class="contact-item-row">
+                <div class="contact-meta">
+                  <span class="contact-type">Location</span>
+                  <span class="contact-val">Palwal, Haryana, India</span>
+                </div>
+                <span class="contact-val" style="font-size:0.8rem; color:var(--text-muted);">GMT +5:30</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right-panel">
+            <span class="panel-header-badge">
+              <span class="status-dot"></span>
+              Fastest response via email & LinkedIn
+            </span>
+            <h3 style="font-size:1.25rem; font-weight:700;">Direct Channels</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); line-height:1.5;">
+              Whether you are discussing engineering roles, competitive hackathons, or technical problem solving, my inbox is open.
+            </p>
+            <div class="direct-buttons">
+              <a href="mailto:vaishnavlakshay640@gmail.com" class="btn btn-primary" style="width:100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>Email Me Directly</span>
+              </a>
+              <a href="https://linkedin.com/in/lakshay-vaishnav-951b8b3b6" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>Connect on LinkedIn</span>
+              </a>
+              <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>Follow on GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       33. FOOTER
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-name">Lakshay Vaishnav</div>
+        <div class="footer-tagline">Computer Engineering • Software • AI</div>
+        <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-dim); margin-top:0.2rem;">
+          Palwal, Haryana, India
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/lakshay-vaishnav" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/lakshay-vaishnav-951b8b3b6" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:vaishnavlakshay640@gmail.com">Email</a>
+        <a href="#hero">Back to Top ↑</a>
+      </div>
+
+      <div class="footer-copy">
+        © 2026 Lakshay Vaishnav. Built with precision. Zero bloat.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       12. ACCESSIBLE CASE STUDY MODAL DIALOG
+       ========================================================================== -->
+  <dialog id="case-study-modal" aria-labelledby="modal-title" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span id="modal-badge" class="modal-sub">PROJECT CASE STUDY</span>
+          <h2 id="modal-title" class="modal-title">Project Title</h2>
+          <span id="modal-category" class="modal-sub" style="color:var(--text-muted);">CATEGORY</span>
+        </div>
+        <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="Close dialog">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h3 class="modal-section-title">Overview</h3>
+          <p id="modal-overview" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Why I Built It (Problem)</h3>
+          <p id="modal-problem" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Engineering Thinking</h3>
+          <p id="modal-thinking" class="modal-text"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Technical Architecture</h3>
+          <p id="modal-architecture" class="modal-text" style="font-family:var(--font-mono); font-size:0.85rem; background:rgba(0,0,0,0.3); padding:1rem; border-radius:4px; line-height:1.7;"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Key Implementation Highlights</h3>
+          <ul id="modal-impl-list" class="modal-bullet-list"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Technologies Applied</h3>
+          <div id="modal-tech-tags" class="project-tech-tags"></div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; gap:0.75rem; border-top:1px solid var(--border-dim); padding-top:1rem;">
+          <a id="modal-github-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            <span>View on GitHub</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- ==========================================================================
+       RESUME VIEWER MODAL DIALOG (EMBEDS VERIFIED PDF)
+       ========================================================================== -->
+  <dialog id="resume-modal" aria-labelledby="resume-modal-title" aria-modal="true">
+    <div class="modal-container" style="width:min(95vw, 960px);">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-sub">VERIFIED SOURCE OF TRUTH</span>
+          <h2 id="resume-modal-title" class="modal-title">Lakshay Vaishnav — Resume</h2>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <a href="assets/Lakshay_Vaishnav_Resume.pdf" download="Lakshay_Vaishnav_Resume.pdf" class="btn btn-accent btn-sm">
+            <span>Download PDF</span>
+          </a>
+          <button type="button" id="resume-close-btn" class="modal-close-btn" aria-label="Close resume viewer">✕</button>
+        </div>
+      </div>
+      <div class="modal-body resume-modal-body">
+        <iframe src="assets/Lakshay_Vaishnav_Resume.pdf" class="resume-iframe" title="Lakshay Vaishnav Resume PDF Preview"></iframe>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Feedback -->
+  <div id="toast-notice" class="toast-notice" role="status" aria-live="polite">
+    Copied to clipboard
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
